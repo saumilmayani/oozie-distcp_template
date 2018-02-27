@@ -8,6 +8,54 @@
 		<value>${value01}</value>
 	</property>
 	<property>
+		<name>oozie.launcher.${property02}</name>
+		<value>${value02}</value>
+	</property>
+	<property>
+		<name>oozie.launcher.${property03}</name>
+		<value>${value03}</value>
+	</property>
+	<property>
+		<name>oozie.launcher.${property04}</name>
+		<value>${value04}</value>
+	</property>
+	<property>
+		<name>oozie.launcher.${property05}</name>
+		<value>${value05}</value>
+	</property>
+	<property>
+		<name>oozie.launcher.${property06}</name>
+		<value>${value06}</value>
+	</property>
+	<property>
+		<name>oozie.launcher.${property07}</name>
+		<value>${value07}</value>
+	</property>
+	<property>
+		<name>oozie.launcher.${property08}</name>
+		<value>${value08}</value>
+	</property>
+	<property>
+		<name>oozie.launcher.${property09}</name>
+		<value>${value09}</value>
+	</property>
+	<property>
+		<name>oozie.launcher.${property10}</name>
+		<value>${value10}</value>
+	</property>
+	<property>
+		<name>oozie.launcher.${property11}</name>
+		<value>${value11}</value>
+	</property>
+	<property>
+		<name>oozie.launcher.${property12}</name>
+		<value>${value12}</value>
+	</property>
+	<property>
+		<name>oozie.launcher.${property13}</name>
+		<value>${value13}</value>
+	</property>
+	<property>
 		<name>${property02}</name>
 		<value>${value02}</value>
 	</property>
@@ -54,54 +102,6 @@
 	<property>
 		<name>${property13}</name>
 		<value>${value13}</value>
-	</property>
-	<property>
-		<name>${property14}</name>
-		<value>${value14}</value>
-	</property>
-	<property>
-		<name>${property15}</name>
-		<value>${value15}</value>
-	</property>
-	<property>
-		<name>${property16}</name>
-		<value>${value16}</value>
-	</property>
-	<property>
-		<name>${property17}</name>
-		<value>${value17}</value>
-	</property>
-	<property>
-		<name>${property18}</name>
-		<value>${value18}</value>
-	</property>
-	<property>
-		<name>${property19}</name>
-		<value>${value19}</value>
-	</property>
-	<property>
-		<name>${property20}</name>
-		<value>${value20}</value>
-	</property>
-	<property>
-		<name>${property21}</name>
-		<value>${value21}</value>
-	</property>
-	<property>
-		<name>${property22}</name>
-		<value>${value22}</value>
-	</property>
-	<property>
-		<name>${property23}</name>
-		<value>${value23}</value>
-	</property>
-	<property>
-		<name>${property24}</name>
-		<value>${value24}</value>
-	</property>
-	<property>
-		<name>${property25}</name>
-		<value>${value25}</value>
 	</property>
     </configuration>
 </global>
