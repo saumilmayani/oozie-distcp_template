@@ -7,13 +7,18 @@ This article will help with writing a Oozie Distcp Action workflow to run copy H
 Background:
 
 To run Hadoop distcp command on a Cluster with NameNode High Availability (HA) enabled, the following is required:
-Adding of nameservice information of both Source and destination cluster
-Restarting of the services.
+1. Adding of nameservice information of both Source and destination cluster
+2. Restarting of the services.
 The reason being that YARN ResourceManager renews delegation tokens for applications.
 
-Cause:
+Solution
 
-To achieve the above, the MapReduce jobs can send the configurations to RM at runtime and RM uses these configurations to renew tokens via mapreduce.job.send-token-conf
+To avoid server side configuration, the MapReduce jobs can send the configurations to RM at runtime and RM uses these configurations to renew tokens via "mapreduce.job.send-token-conf"
+We can leverage the same via Oozie Distcp Action. 
+
+Here is the Oozie distcp Action template you can use. 
+1. job.properties
+2. workflow.xml
 
 Steps:
 
