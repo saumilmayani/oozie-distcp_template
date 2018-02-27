@@ -16,7 +16,7 @@ Solution
 To avoid server side configuration, the MapReduce jobs can send the configurations to RM at runtime and RM uses these configurations to renew tokens via "mapreduce.job.send-token-conf"
 We can leverage the same via Oozie Distcp Action. 
 
-Here is the Oozie distcp Action template you can use. 
+Here is the Oozie distcp Action template that would allow basic oozie distcp action on a Kerberos environment and help parameterize on runtime. This way end users can run at their schedule.
 1. job.properties
 2. workflow.xml
 
