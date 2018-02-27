@@ -1,7 +1,19 @@
 # oozie-distcp_template
 
-Writing an Oozie Distcp Action: 
-In a Kerberized environment, how to run Oozie workflow with two HDFS HA clusters without updating properties on server ? 
+Problem Description:
+
+This article will help with writing a Oozie Distcp Action workflow to run copy HDFS data across two HDFS HA cluster.
+
+Background:
+
+To run Hadoop distcp command on a Cluster with NameNode High Availability (HA) enabled, the following is required:
+Adding of nameservice information of both Source and destination cluster
+Restarting of the services.
+The reason being that YARN ResourceManager renews delegation tokens for applications.
+
+Cause:
+
+To achieve the above, the MapReduce jobs can send the configurations to RM at runtime and RM uses these configurations to renew tokens via mapreduce.job.send-token-conf
 
 Steps:
 
