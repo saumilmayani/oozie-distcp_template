@@ -2,7 +2,7 @@
 
 Problem Description:
 
-This article will help with writing a Oozie Distcp Action workflow to run copy HDFS data across two HDFS HA cluster.
+This article will help with writing a Oozie Distcp Action workflow to run copy HDFS data across two HDFS HA cluster without updating HA configuration of both clusters on the Server side.
 
 Background:
 
